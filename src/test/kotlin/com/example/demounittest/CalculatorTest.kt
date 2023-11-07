@@ -35,4 +35,12 @@ internal class CalculatorTest {
         val result = calculator.divide(15,3)
         assertEquals(expect,result)
     }
+
+    @Test
+    fun loopFourAndOneReturnFour() {
+        val expect = 4
+        val result = calculator.loop(4,1)
+        assertEquals(expect,result)
+    }
+
 }
